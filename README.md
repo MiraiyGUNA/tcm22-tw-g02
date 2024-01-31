@@ -55,6 +55,6 @@ _Please add at least on section (a file) per Chapter. But you can add more._
 * Chapter 4: [Presentation](doc/c4.md)
 
 ## Team
-- Vitor Tiago Magalhães Marques [@HomemCocaCola](https://github.com/HomemCocaCola)
+- Vitor Tiago Magalhães Marques [@MiraiyGUNA](https://github.com/MiraiyGUNA)
 - Diogo Gomes Martins [@Diogohj27](https://github.com/Diogohj27)
 - João Miguel Fernandes Silva [@JonasRG24](https://github.com/JonasRG24)
