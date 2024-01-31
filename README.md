@@ -1,6 +1,6 @@
 # Website do Varzim Sport Club
 
-Repository to host the project developed for 'Tecnologias Web', a second year subject at Universidade da Maia. Developed by Group SIGMAMALES : [@HomemCocaCola](https://github.com/HomemCocaCola), [@Diogohj27](https://github.com/Diogohj27), [@JonasRG24](https://github.com/JonasRG24).
+Repository to host the project developed for 'Tecnologias Web', a second year subject at Universidade da Maia. Developed by Group SIGMAMALES : [@MiraiyGUNA](https://github.com/MiraiyGUNA), [@Diogohj27](https://github.com/Diogohj27), [@JonasRG24](https://github.com/JonasRG24).
 
 [Link do Site](https://tcm22-tw-g02.netlify.app/)
 
