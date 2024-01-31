@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="date" content="2022/12/16">
+    <title>Varzim Sport Club</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="icon" type="image/x-icon" href="/src/images/logo.png">
+</head>
+
+<body>
+    <div class="container">
+        <div class="navbar">
+            <a href="../index.html"><img src="images/logo.png" class="logo" alt="logo"></a>
+            <nav>
+                <ul>
+                    <li><a href="clube.html">Clube</a></li>
+                    <li><a href="equipa.html">Equipa</a></li>
+                    <li><a href="acreditacoes.html">Acreditações</a></li>
+                    <li><a href="calendario.html">Futuros Jogos</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <header>
+    </header>
+    <div class="main">
+        <aside class="left">
+        </aside>
+        <main>
+            <h1>Regras e Documentação para Acreditação Media 2022/2023</h1>
+            <p>Na época desportiva 2022/2023, o acesso da comunicação social para eventos desportivos realizados nas
+                instalações desportivas do Varzim Sport Club, está sujeito aos seguintes Termos e Condições:</p>
+            <ol>
+                <li>O acesso dos elementos da comunicação social ao recinto do Clube, para eventos desportivos, far-se-á
+                    através de uma credencial, propriedade do Clube e válida para o jogo a que disser respeito, que será
+                    devidamente identificado, e a ser utilizada pela pessoa a favor de quem for emitida.</li>
+                <li>Os pedidos de acreditação devem ser feitos, até 48 horas antes do início do jogo, através do
+                    formulário.</li>
+                <li>Salvo motivo ponderoso, não serão aceites pedidos de acreditação fora do prazo previsto no número
+                    anterior.</li>
+                <li>Os órgãos de comunicação social, para pedido de credencial para os seus profissionais e
+                    colaboradores, ou o próprio, em caso de profissional independente (freelancer), devem indicar no
+                    pedido de credencial para o jogo específico que pretendem acesso, o nome completo e categoria
+                    profissional da pessoa a acreditar.</li>
+                <ol>
+                    <li>Todos os pedidos de credencial terão de ser levantados mediante um documento identificativo
+                        pessoal;</li>
+                    <li>Todos os pedidos de credencial, terão de ser levantados mediante documento identificativo
+                        empresarial;</li>
+                </ol>
+                <li>O Clube pode condicionar a entrega da credencial ou o efectivo acesso à bancada de imprensa, sala de
+                    imprensa ou outros locais onde decorram factos susceptíveis de serem noticiados no recinto
+                    desportivo do Clube à apresentação de carteira profissional de Jornalista ou restantes títulos
+                    emitidos pela Comissão da Carteira Profissional de Jornalistas e da AIPS, para assim ser feita a
+                    respectiva identificação.</li>
+                <li>Por condicionantes de espaço das instalações desportivas do Clube, pode este realizar uma divisão de
+                    lugares disponíveis de acordo com as seguintes prioridades estabelecidas de acordo com o Regulamento
+                    de Competições da FPF.</li>
+                <li>Qualquer elemento ligado ao Varzim Sport Club apenas prestará declarações à comunicação social desde
+                    que previamente autorizado pelo Assessor de Imprensa.</li>
+                <li>O Clube reserva-se no direito de conceder regimes de acesso ao seu recinto desportivo em moldes
+                    diferentes no previsto nos números anteriores, no âmbito de protocolos ou parcerias, sempre que a
+                    relação de confiança com o órgão de comunicação social o justifique.</li>
+                <li>O Varzim Sport Club reserva-se no direito de recusar qualquer pedido de credencial, que não cumpra
+                    os requisitos previstos nos itens precedentes, sem ter de justificar os motivos da sua decisão.</li>
+                <li>É interdito, e sujeito às sanções legais, o acesso à bancada de imprensa e sala de imprensa para
+                    outros fins que não de cobertura informativa dos acontecimentos desportivos, bem como a presença
+                    nesses locais sem a respectiva credencial de acesso.</li>
+                <li>Os casos omissos serão resolvidos pelo Assessor de Imprensa ou em última instância, e caso se
+                    justifique, pela Direcção do Clube.</li>
+                <li>Todos os pedidos de acreditação serão alvo de análise. O envio do formulário não garante a sua
+                    entrada. Deverá aguardar por uma resposta via email.</li>
+            </ol>
+            <p>Para mais informações: diogomadeira@varzim.pt</p>
+            <h1>Formulário Comunicação Social</h1>
+            <form action="formdata/" method="post">
+                <ul>
+                    <li>
+                        <label for="jogo">Jogo</label>
+                        <select id="jogo" name="jogo" required>
+                            <option>Varzim SC x SC Braga B</option>
+                            <option>Varzim SC x FC Porto B</option>
+                            <option>Varzim SC x Rio Ave SC</option>
+                        </select>
+                    </li>
+                    <li>
+                        <label for="name">Nome</label>
+                        <input type="text" id="name" name="user_name" placeholder="Sam Widge" required>
+
+                    </li>
+                    <li>
+                        <label for="mail">E-mail</label>
+                        <input type="email" id="mail" name="user_mail" placeholder="samwidge@endereço.com" required>
+                        <span class="hint">Formato Correto "nome@endereço.com"</span>
+                    </li>
+                    <li>
+                        <label for="phone">N.º de Telefone</label>
+                        <input type="tel" id="phone" name="user_phone" placeholder="912345678" required>
+                        <span class="hint">Sem espaços nos números</span>
+                    </li>
+                    <li>
+                        <label for="social">Orgão Comunicação Social</label>
+                        <textarea id="social" name="user_social"
+                            placeholder="Nome do Orgão de Comunicação Social"></textarea>
+                    </li>
+                    <li>Função</li>
+                    <li>
+                        <label for="fotografo">Fotógrafo</label>
+                        <input type="checkbox" name="fotografo" value="fotografo">
+                    </li>
+                    <li>
+                        <label for="jornalista">Jornalista</label>
+                        <input type="checkbox" name="jornalista" value="jornalista">
+                    </li>
+                    <li>
+                        <label for="redator">Redator</label>
+                        <input type="checkbox" name="redator" value="redator">
+                    </li>
+                    <li>
+                        <label for="estatisticas">Estatísticas</label>
+                        <input type="checkbox" name="estatisticas" value="estatisticas">
+                    </li>
+                    <li>
+                        <label for="reporter">Repórter de Pista</label>
+                        <input type="checkbox" name="reporter" value="reporter">
+                    </li>
+                    <li>Conferência de Imprensa</li>
+                    <li>
+                        <input type="radio" name="imprensa" value="sim">
+                        <label for="sim">Sim</label>
+                    </li>
+                    <li> <input type="radio" name="imprensa" value="nao">
+                        <label for="nao">Não</label>
+                    </li>
+                    <li>
+                        <label for="ncarteira">Nº do CNID ou AIPS ou Carteira Profissional</label>
+                        <textarea id="ncarteira" name="user_ncarteira"
+                            placeholder="Nº do CNID ou AIPS ou Carteira Profissional"></textarea>
+                    </li>
+                    <li>
+                        <label for="colete">Nº do Colete (obrigatório se pretender ir para o relvado)</label>
+                        <input type="number" id="colete" name="colete">
+                    </li>
+                    <li>
+                        <button class="submit" name="submit" type="submit">Enviar</button>
+                        <input type="reset"><br />
+                    </li>
+                </ul>
+            </form>
+        </main>
+        <aside class="right">
+        </aside>
+    </div>
+    <footer>
+        <p>&copy; 2022-2023<a href="#">Varzim Sport Club Website</a></p>
+        <p><a href="https://www.facebook.com/varzimsportclub">Facebook</a> <a
+                href="https://twitter.com/VSC1915">Twitter</a>
+            <a href="https://www.instagram.com/varzim_sport_club/">Instagram</a>
+        </p>
+    </footer>
+</body>
+
+</html>

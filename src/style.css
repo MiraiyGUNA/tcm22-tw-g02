@@ -1,0 +1,214 @@
+* {
+    margin: 5px;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    height: 95vh;
+    background-color: #1d1e20;
+    display: flex;
+    flex-direction: column;
+    color: #dadadb;
+}
+
+header img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1000px;
+    min-width: 500px;
+    color: rgba(255, 255, 255, 1);
+}
+
+header img:hover {
+    opacity: 0.9;
+}
+
+header {
+    text-align: center;
+}
+
+header h1 {
+    color: #a31c1b;
+}
+
+
+header h3 {
+    font-style: italic;
+    padding: 10px;
+    color: #d1ad31;
+}
+
+header p {
+    padding: 10px;
+}
+
+a:visited {
+    color: #d1ad31;
+}
+
+a:link {
+    color: #a31c1b;
+}
+
+.container {
+    width: 100%;
+}
+
+.navbar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 80px;
+    cursor: pointer;
+    margin: 30px 0;
+}
+
+.logo:hover {
+    opacity: 0.8;
+}
+
+.menu-icon {
+    width: 75px;
+    cursor: pointer;
+}
+
+nav {
+    flex: 1;
+    text-align: right;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 30px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: brown;
+    font-size: 14px;
+}
+
+nav ul li a:hover {
+    color: #a31c1b;
+}
+
+header {
+    padding: 2em, 0em, 2em, 0em;
+
+
+}
+
+.main {
+    display: flex;
+    flex: 1;
+
+}
+
+.left {
+    padding: 3em, 0em, 3em, 0em;
+    flex: 1 1 100px;
+
+}
+
+main {
+    padding: 3em, 0em, 3em, 0em;
+    flex: 5 5 150px;
+
+}
+
+.right {
+    padding: 3em, 0em, 3em, 0em;
+    flex: 1 1 100px;
+
+}
+
+footer {
+    padding: 1em, 0em, 1em, 0em;
+    text-align: center;
+}
+
+ul li {
+    list-style: none;
+    margin-right: 30px;
+}
+
+.right tr {
+    vertical-align: top;
+}
+
+.tabelalateral {
+    width: 22em;
+    text-align: left;
+    font-size: 88%;
+    line-height: 1.5;
+    border: 1px solid #dadadb;
+    border-collapse: collapse;
+}
+
+.tabelalateral img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+
+}
+
+td [id="topotabela"] {
+    text-align: center;
+}
+
+table tr td img {
+    vertical-align: middle;
+    margin-top: 0px;
+    height: 2em;
+
+}
+
+
+
+
+#jogos {
+    width: auto;
+    text-align: center;
+    overflow: hidden;
+}
+
+#jogos div {
+    width: 47%;
+    text-align: left;
+    /* border:solid 2px rgb(255, 255, 255); */
+    margin: 1px 0;
+    padding: 2px 5px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.col1 {
+    float: left;
+    clear: both;
+}
+
+.col2 {
+    float: right;
+}
+
+.hide{
+    visibility: hidden;
+}
+@media all and (max-width: 550px) {
+    .main {
+        flex-direction: column;
+    }
+
+    main {
+        padding: 5em, 0em, 5em, 0em;
+    }
+}

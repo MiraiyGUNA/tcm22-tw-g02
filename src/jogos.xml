@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<Jogos>
+	<Lista>
+		<Data>2023/01/06</Data>
+		<Competição>Liga 3</Competição>
+		<Adversário>AD Fafe</Adversário>
+		<Local>Parque Municipal dos Desportos, Fafe</Local>
+	</Lista>
+	<Lista>
+		<Data>2023/01/10</Data>
+		<Competição>Taça de Portugal</Competição>
+		<Adversário>SL Benfica</Adversário>
+		<Local>Estádio do Varzim, Póvoa de Varzim</Local>
+	</Lista>
+	<Lista>
+		<Data>2023/01/14</Data>
+		<Competição>Liga 3</Competição>
+		<Adversário>Anadia FC</Adversário>
+		<Local>Estádio do Varzim, Póvoa de Varzim</Local>
+	</Lista>
+	<Lista>
+		<Data>2023/01/20</Data>
+		<Competição>Liga 3</Competição>
+		<Adversário>FC Felgueiras 1932</Adversário>
+		<Local>Estádio Dr. Machado de Matos, Felgueiras</Local>
+	</Lista>
+	<Lista>
+		<Data>2023/01/27</Data>
+		<Competição>Liga 3</Competição>
+		<Adversário>AD Sanjoanense</Adversário>
+		<Local>Estádio do Varzim, Póvoa de Varzim</Local>
+	</Lista>
+	<Lista>
+		<Data>2023/02/04</Data>
+		<Competição>Liga 3</Competição>
+		<Adversário>CDC Montalegre</Adversário>
+		<Local>Dr. Diogo Alves Vaz Pereira, Montalegre</Local>
+	</Lista>
+	<Lista>
+		<Data>2023/02/12</Data>
+		<Competição>Liga 3</Competição>
+		<Adversário>SC São João de Ver</Adversário>
+		<Local>Estádio do Varizm, Póvoa de Varzim</Local>
+	</Lista>
+	<Lista>
+		<Data>2023/02/19</Data>
+		<Competição>Liga 3</Competição>
+		<Adversário>Vitória SC B</Adversário>
+		<Local>Estádio D. Afonso Henriques, Guimarães</Local>
+	</Lista>
+	<Lista>
+		<Data>2023/02/26</Data>
+		<Competição>Liga 3</Competição>
+		<Adversário>Lank Vilaverdense</Adversário>
+		<Local>Campo Cruz do Reguengo, Vila Verde</Local>
+	</Lista>
+	<Lista>
+		<Data>2023/03/05</Data>
+		<Competição>Liga 3</Competição>
+		<Adversário>Canelas 2010</Adversário>
+		<Local>Estádio do Varzim, Póvoa de Varzim</Local>
+	</Lista>
+	<Lista>
+		<Data>2023/03/12</Data>
+		<Competição>Liga 3</Competição>
+		<Adversário>USC Paredes</Adversário>
+		<Local>Cidade Desportiva de Paredes, Paredes</Local>
+	</Lista>
+</Jogos>

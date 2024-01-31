@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="date" content="2022/12/16">
+    <title>Varzim Sport Club</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <script src="XML_Js.js"></script>
+    <link rel="icon" type="image/x-icon" href="/src/images/logo.png">
+</head>
+
+<body onload="ready()">
+    <div class="container">
+        <div class="navbar">
+            <a href="../index.html"><img src="images/logo.png" class="logo" alt="logo"></a>
+            <nav>
+                <ul>
+                    <li><a href="clube.html">Clube</a></li>
+                    <li><a href="equipa.html">Equipa</a></li>
+                    <li><a href="acreditacoes.html">Acreditações</a></li>
+                    <li><a href="">Futuros Jogos</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <header>
+    </header>
+    <div class="main">
+        <aside class="left">
+        </aside>
+        <main>
+            <h1>Futuros Jogos</h1>
+            <p id="action01">Carregar Jogos</p>
+            <div id="jogos"></div>
+        </main>
+        <aside class="right">
+        </aside>
+    </div>
+    <footer>
+        <p>&copy; 2022-2023<a href="#">Varzim Sport Club Website</a></p>
+        <p><a href="https://www.facebook.com/varzimsportclub">Facebook</a> <a
+                href="https://twitter.com/VSC1915">Twitter</a>
+            <a href="https://www.instagram.com/varzim_sport_club/">Instagram</a>
+        </p>
+    </footer>
+    <script>
+        function ready() {
+            var pElement = document.getElementById("action01");
+            pElement.style.cursor = "pointer";
+            pElement.onclick = function () {
+                loadData();
+                return false; //to prevent default behaviour;
+            }
+        }
+    </script>
+
+</body>
+
+</html>
